@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Site</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="quiz-container">
+    <h1>Quiz</h1>
+    <div id="question"></div>
+    <div id="options"></div>
+  </div>
+
+  <div id="api-container">
+    <h2>Random Joke</h2>
+    <div id="joke"></div>
+    <button onclick="fetchJoke()">Get New Joke</button>
+  </div>
+
+  <script src="quiz.js"></script>
+  <script src="api.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+/* Base styles for mobile */
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 10px;
+}
+
+/* Tablet styles */
+@media (min-width: 600px) {
+  body {
+    font-size: 18px;
+    padding: 20px;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  body {
+    font-size: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+#options {
+  margin-top: 15px;
+}
+
+button {
+  min-width: 120px;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
